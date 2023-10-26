@@ -19,7 +19,14 @@ Code is protected under the MIT License, which means you are able to use my code
 To use this project, run
 
 ```bash
-  npm i
+  npm i express ytdl-core ffmpeg-static fluent-ffmpeg
   node express.js
 ```
+
+
+## Environment Variables
+
+At the bottom of `express.js`, you can change the port. Or, you can put in your port in the .ENV file.
+
+`PORT=3000`
 
